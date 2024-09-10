@@ -1,14 +1,20 @@
+html, body {
+    height: 100%; /* Задаем высоту 100% для html и body */
+    margin: 0; /* Убираем отступы */
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f9f6ef; /* Светлый кремовый фон */
+    display: flex;
+    flex-direction: column; /* Позволяет располагать элементы по вертикали */
 }
 
 header {
     background: #e3d1b0; /* Кремовый цвет для шапки */
     color: #333; /* Тёмно-серый текст */
-    padding: 10px 0;
+    padding: 25px 0;
+    text-align: center; /* Выравнивание текста по центру */
 }
 
 header h1 {
@@ -29,16 +35,21 @@ nav ul li {
     margin: 0 15px;
 }
 
+pre.main {
+    font-family: arial, sans-serif;
+}
+
 nav ul li a {
     color: #333; /* Тёмно-серый цвет для ссылок */
     text-decoration: none;
 }
 
 main {
+    flex: 1; /* Позволяет основному контенту занимать всё оставшееся пространство */
     padding: 20px;
     background: #ffffff; /* Белый фон для контента */
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 820px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,12 +58,8 @@ footer {
     padding: 10px 0;
     background: #e3d1b0; /* Кремовый цвет для подвала */
     color: #333; /* Тёмно-серый текст */
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
-/* Стили для заголовков новостей */
 article h3 {
     color: #e3d1b0; /* Кремовый цвет для заголовков новостей */
 }
