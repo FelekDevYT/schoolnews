@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6ef; /* Светлый кремовый фон */
+}
+
+header {
+    background: #e3d1b0; /* Кремовый цвет для шапки */
+    color: #333; /* Тёмно-серый текст */
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333; /* Тёмно-серый цвет для ссылок */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: #ffffff; /* Белый фон для контента */
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #e3d1b0; /* Кремовый цвет для подвала */
+    color: #333; /* Тёмно-серый текст */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для заголовков новостей */
+article h3 {
+    color: #e3d1b0; /* Кремовый цвет для заголовков новостей */
+}
